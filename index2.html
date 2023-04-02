@@ -1,18 +1,32 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Gabriel Rousseau</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- Links (sit on top) -->
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/bg.JPG");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
     <div class="w3-col s3">
@@ -29,40 +43,15 @@
     </div>
   </div>
 </div>
-	<body class="is-preload">
-		
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="content">
-							<div class="inner">
-								<h1>Gabriel Rousseau<br/><h2> Media Creation</br>
-								<span><h3><a href="/instrumental.html">Instrumentals</a></span>
-								<br/>-
-								<span><h3><a href="/videos.html">Videography</a></span>
-								<br/>-
-								<span><h3><a href="/lyrics.html">Lyrics for Sale</a></span>
-								<br/>-
-								<span><h3><a href="/songs.html">Songs for Sale</a></span>
-								<br/>-
-								<span><h3><a href="/contact.html">Contact</a></span>
-									
-							</div>
-						</div>
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:20px">Gabriel Rousseau</span>
+  </div>
 
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 <script>
 // Tabbed Menu
 function openMenu(evt, menuName) {
@@ -80,5 +69,6 @@ function openMenu(evt, menuName) {
 }
 document.getElementById("myLink").click();
 </script>
-	</body>
+
+</body>
 </html>
