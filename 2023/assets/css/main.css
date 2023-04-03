@@ -549,7 +549,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		top: -1em;
-		vertical-align: middle;
+		vertical-align: top;
 		width: 90%;
 	}
 
