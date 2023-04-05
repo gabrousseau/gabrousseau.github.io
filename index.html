@@ -39,7 +39,14 @@ https://templatemo.com/tm-557-grad-school
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-        <li class="has-submenu"><a href="#">Music</a>
+        <li><audio autoplay muted loop>
+			<source src="assets/music/bgmusic.mp3" type="audio/mpeg">
+			</audio>
+			<div>
+			<a href onclick="document.getElementById('player').muted=!document.getElementById('player').muted"><i class="fa fa-volume-up"></i> / <i class="fa fa-volume-off"></i></a>
+			</div>
+		</li>
+		<li class="has-submenu"><a href="#">Music</a>
           <ul class="sub-menu">
             <li><a href="https://open.spotify.com/artist/3EyEeWTlRbyUwKJcw3cBvW" target="_blank" rel="sponsored" class="external">Spotify</a></li>
             <li><a href="https://music.apple.com/us/artist/gabriel-rousseau/1485823605" target="_blank" rel="sponsored" class="external">Apple Music</a></li>
@@ -73,7 +80,7 @@ https://templatemo.com/tm-557-grad-school
               <h2><em>Media Creation</em></h2>
               <h6>Music Composition - Videography - Edition</h6><br>
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section6">Contact</a></div>
+                  <div class="scroll-to-section"><a href="#section6">Contact</a></div><br>
               </div>
           </div>
       </div>
